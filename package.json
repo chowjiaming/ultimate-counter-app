@@ -1,0 +1,28 @@
+{
+  "name": "ultimate-counter-app",
+  "version": "1.0.0",
+  "description": "An app for counting and keeping track based on the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefstack/ultimate-counter-app.git"
+  },
+  "keywords": [
+    "counter",
+    "pwa",
+    "react",
+    "mongo"
+  ],
+  "author": "Joseph Chow (joefstack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joefstack/ultimate-counter-app/issues"
+  },
+  "homepage": "https://github.com/joefstack/ultimate-counter-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
