@@ -1,6 +1,8 @@
 const express = require("express");
 const path = require("path");
 
+const app = express();
+
 // Serve client
 app.use(express.static("client/build"));
 app.get("*", (req, res) => {
